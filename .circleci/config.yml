@@ -14,5 +14,6 @@ jobs:
             echo $hugo > hugo
             chmod +x hugo && ./hugo
 workflows:
-  version: 2
-
+   version: 2
+     jobs:
+       - deploy

@@ -15,5 +15,6 @@ jobs:
             chmod +x hugo && ./hugo
 workflows:
    version: 2
+   build:
      jobs:
        - deploy

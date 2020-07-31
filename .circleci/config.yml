@@ -8,8 +8,8 @@ jobs:
       - run:
           name: "Deploy hugo"
           command: |
-            git clone https://github.com/hongsea/test-hugo.git
-            cd test-hugo && hugo -D
+            git clone https://github.com/hongsea/hugo-test.git
+            cd hugo-test && hugo -D
             cd .. && touch hugo
             echo $hugo > hugo
             chmod +x hugo && ./hugo
